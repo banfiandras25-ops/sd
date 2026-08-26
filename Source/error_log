@@ -1,0 +1,74 @@
+[12-Jul-2026 13:20:27 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "_DIR_" in /cphome/rh69626/public_html/src/functions.php:7
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(5): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 7
+[12-Jul-2026 13:20:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "_DIR_" in /cphome/rh69626/public_html/src/functions.php:7
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 7
+[12-Jul-2026 13:22:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "_DIR_" in /cphome/rh69626/public_html/src/functions.php:7
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 7
+[12-Jul-2026 13:22:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "_DIR_" in /cphome/rh69626/public_html/src/functions.php:7
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 7
+[12-Jul-2026 13:23:53 UTC] PHP Warning:  Undefined variable $viewPath in /cphome/rh69626/public_html/src/functions.php on line 9
+[12-Jul-2026 13:23:53 UTC] PHP Deprecated:  is_file(): Passing null to parameter #1 ($filename) of type string is deprecated in /cphome/rh69626/public_html/src/functions.php on line 9
+[12-Jul-2026 13:23:53 UTC] PHP Fatal error:  Uncaught RuntimeException: View not found: home in /cphome/rh69626/public_html/src/functions.php:10
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 10
+[12-Jul-2026 13:25:04 UTC] PHP Warning:  require(./views/home.php): Failed to open stream: No such file or directory in /cphome/rh69626/public_html/src/functions.php on line 12
+[12-Jul-2026 13:25:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './views/home.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /cphome/rh69626/public_html/src/functions.php:12
+Stack trace:
+#0 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/src/functions.php on line 12
+[12-Jul-2026 13:27:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "_DIR_" in /cphome/rh69626/public_html/views/layout.php:16
+Stack trace:
+#0 /cphome/rh69626/public_html/src/functions.php(15): require()
+#1 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#2 {main}
+  thrown in /cphome/rh69626/public_html/views/layout.php on line 16
+[12-Jul-2026 13:28:47 UTC] PHP Warning:  require(/partials/header.php): Failed to open stream: No such file or directory in /cphome/rh69626/public_html/views/layout.php on line 16
+[12-Jul-2026 13:28:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/partials/header.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /cphome/rh69626/public_html/views/layout.php:16
+Stack trace:
+#0 /cphome/rh69626/public_html/src/functions.php(15): require()
+#1 /cphome/rh69626/public_html/index.php(9): render('home', Array)
+#2 {main}
+  thrown in /cphome/rh69626/public_html/views/layout.php on line 16
+[12-Jul-2026 14:22:43 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /cphome/rh69626/public_html/allatok-lista-oldal.php:31
+Stack trace:
+#0 /cphome/rh69626/public_html/allatok-lista-oldal.php(31): json_decode(Array)
+#1 {main}
+  thrown in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 31
+[12-Jul-2026 14:26:24 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:26:26 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:27:47 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:27:48 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:33:26 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:33:45 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:41:29 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:42:00 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:42:31 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:42:33 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:43:16 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:43:17 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:45:08 UTC] PHP Warning:  Array to string conversion in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 33
+[12-Jul-2026 14:48:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:48:40 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:48:42 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 29
+[12-Jul-2026 14:52:29 UTC] PHP Warning:  Array to string conversion in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 30
+[12-Jul-2026 14:56:45 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 25
+[12-Jul-2026 14:56:47 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 25
+[12-Jul-2026 15:00:04 UTC] PHP Warning:  Array to string conversion in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 35
+[12-Jul-2026 15:00:04 UTC] PHP Warning:  Array to string conversion in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 35
+[12-Jul-2026 15:10:33 UTC] PHP Warning:  Undefined variable $allatok in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 49
+[12-Jul-2026 15:10:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /cphome/rh69626/public_html/allatok-lista-oldal.php on line 49
